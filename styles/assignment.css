@@ -23,7 +23,7 @@
 /* header style */
 .head{
     background-image: url('../Assets/Hero-bg.png');
-    padding-bottom: 200px;
+    padding-bottom: 50px;
     gap: 158px;
 }
 
@@ -63,4 +63,41 @@ nav ul li{
     font-weight: bold;
     color: #252432;
 }
+
+.banner-motto{
+    text-align: left;
+}
+
+.banner-second{
+    display: flex;
+    justify-content: space-between;
+    margin: 100px 200px;
+    gap: auto;
+}
+
+.banner-second-intro{
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 42px;
+    color: #252432;
+}
+
+.banner-pic{
+    border-radius: 48px;
+}
+
+.banner-description{
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    color: rgba(37, 36, 50, 0.5);
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: rgba(0, 0, 0, 1);
+}
+
+
 
