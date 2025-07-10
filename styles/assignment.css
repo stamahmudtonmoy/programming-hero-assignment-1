@@ -280,3 +280,33 @@ textarea {
     border-radius: 10px;
     width: 100%;
 }
+
+/* footer styles */
+.end{
+
+}
+
+.last{
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-size: 100px;
+  font-weight: 900;
+  color: #4E47FF;
+  text-align: center;
+}
+
+.bottom{
+    color: rgba(137, 135, 161, 1);
+    text-align: center;
+    margin-top: 0px;
+}
+
+.btm-list{
+    color: rgba(137, 135, 161, 1);
+    list-style-type:none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px 515px;
+}
