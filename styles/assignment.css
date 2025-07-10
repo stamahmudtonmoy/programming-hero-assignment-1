@@ -149,3 +149,55 @@ nav ul li{
   color: rgba(0, 0, 0, 0.5);
 }
 
+/* user-feedback styles */
+.user-feedback{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.feedback{
+    display: flex;
+    justify-content: center;
+    margin: 0px;
+    gap: 24px;
+
+.feedback-dt{
+    text-align: left;
+    padding: 24px;
+    max-width: 366.67px;
+    box-shadow: 0px 6px 50px 0px #FFFFFF;
+    border-radius: 14px;
+}
+}
+
+.user-feedback-intro{
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 42px;
+    color: #252432;
+    text-align: center;
+}
+
+@import url('https://fonts.cdnfonts.com/css/monster-ag');
+.feedback-title{
+    font-family: 'AG Heading', sans-serif;                                
+}
+
+.feedback-details{
+    font-family: 'AG Body Base', sans-serif;
+}
+
+.feedback-name{
+    display: inline-flex;
+    justify-content: center;
+    font-family: 'AG Body Strong', sans-serif;
+    margin-top: 0px;
+}                                           
+                 
+.r-pic{
+   border-radius: 50%;
+   width: 40px;
+   height: 40px;
+}
