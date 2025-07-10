@@ -310,3 +310,16 @@ textarea {
     align-items: center;
     margin: 0px 515px;
 }
+
+/* hover effects */
+.btn-primary:hover {
+  background-color: #2980b9;
+  transform: scale(1.00);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.btn-secondary:hover {
+  background-color: #2980b9;
+  transform: scale(1.00);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
