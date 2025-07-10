@@ -201,3 +201,82 @@ nav ul li{
    width: 40px;
    height: 40px;
 }
+
+/* footer styles */
+.info{
+    display: flex;
+    justify-content: space-between;
+}
+
+.welcome{
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 97px;
+    color: #252432;
+    text-align: left;
+}
+
+.l-name{
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    color: #000000;
+}
+
+.input-text-content{
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.5);
+    display: block;
+      display: block;
+}
+
+.input{
+    gap: 100px;
+    width: 100%;
+    max-width: 497px;
+    border-radius: 10px;
+    background-color: #FFFFFF;
+    color: rgba(255, 255, 255, 0.5);
+    display: block;
+    width: 497px;
+    padding: 16px 20px;
+    margin-bottom: 24px;
+    border: none;
+    box-sizing: border-box;
+}
+
+textarea {
+  display: block;
+  width: 100%;
+  padding: 16px 20px;
+  margin-bottom: 24px;
+  border-radius: 10px;
+  border: 1px solid #D6DDED;
+  visibility: visible;
+  font-family: inherit;
+  font-size: 1rem;
+  box-sizing: border-box;
+  font-size: 1rem;
+}
+
+.btn-secondary{
+    background-color: #4E47FF;
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    color: #FFFFFF;
+    border: none;
+    padding: 19px 101px;
+    border-radius: 10px;
+    width: 100%;
+}
