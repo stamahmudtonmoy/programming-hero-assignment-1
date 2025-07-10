@@ -191,7 +191,7 @@ nav ul li{
 
 .feedback-name{
     display: inline-flex;
-    justify-content: center;
+    justify-content: space-between;
     font-family: 'AG Body Strong', sans-serif;
     margin-top: 0px;
 }                                           
