@@ -99,5 +99,53 @@ nav ul li{
     -webkit-text-stroke-color: rgba(0, 0, 0, 1);
 }
 
+/* section styles */
+.section-intro{
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 38px;
+    color: #252432;
+    margin-top: 0px;
+}
 
+/* background styles */
+.secondary-bg{
+    background-color: rgba(78, 71, 255, 0.1);
+}
+
+/* user styles */
+.user{
+    max-width: 1140px;
+    padding: 50px 80px;
+    margin: 0 auto;
+    border-radius: 24px;
+    text-align: center;
+}
+
+.user-items{
+    display: flex;
+    justify-content: space-around;
+    gap: 0px;
+}
+
+.item-title{
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 80px;
+  color: #4E47FF;
+  margin-top: 0px;
+}
+
+.item-des{
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  color: rgba(0, 0, 0, 0.5);
+}
 
