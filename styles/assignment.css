@@ -202,10 +202,14 @@ nav ul li{
    height: 40px;
 }
 
-/* footer styles */
+/* section-info styles */
 .info{
     display: flex;
     justify-content: space-between;
+    padding: auto;
+    max-width: 1140px;
+    gap: auto;
+    margin: auto;
 }
 
 .welcome{
@@ -216,6 +220,7 @@ nav ul li{
     font-size: 97px;
     color: #252432;
     text-align: left;
+    padding-left: 20px;
 }
 
 .l-name{
@@ -225,32 +230,21 @@ nav ul li{
     font-weight: 600;
     font-size: 18px;
     color: #000000;
-}
-
-.input-text-content{
-    font-family: "Inter", sans-serif;
-    font-optical-sizing: auto;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 20px;
-    color: rgba(0, 0, 0, 0.5);
-    display: block;
-      display: block;
+    max-height: 22px;
 }
 
 .input{
-    gap: 100px;
-    width: 100%;
-    max-width: 497px;
-    border-radius: 10px;
-    background-color: #FFFFFF;
-    color: rgba(255, 255, 255, 0.5);
-    display: block;
-    width: 497px;
-    padding: 16px 20px;
-    margin-bottom: 24px;
-    border: none;
-    box-sizing: border-box;
+  display: block;
+  width: 100%;
+  padding: 20px 32px;
+  margin-bottom: 24px;
+  border-radius: 10px;
+  border: 1px solid #D6DDED;
+  visibility: visible;
+  font-family: inherit;
+  font-size: 1rem;
+  box-sizing: border-box;
+  font-size: 1rem;
 }
 
 textarea {
