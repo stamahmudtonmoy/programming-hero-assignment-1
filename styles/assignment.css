@@ -286,6 +286,8 @@ textarea {
 }
 
 .last{
+  margin-top: 200px;
+  margin-bottom: 15px;
   font-family: "Inter", sans-serif;
   font-optical-sizing: auto;
   font-style: normal;
@@ -307,7 +309,9 @@ textarea {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 0px 515px;
+    margin-right:500px;
+    margin-left: 500px;
+    margin-bottom: 100px;
 }
 
 /* hover effects */
